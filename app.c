@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <locale>
+#include <locale.h>
 #define POL 2.54
 
 float x, y, r;
