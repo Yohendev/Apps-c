@@ -7,11 +7,11 @@ float salario, comissao,vendas, salarioFinal;
 
 int main (){
     setlocale(LC_ALL, "");
-	printf("Digite o salario" );
+	printf("Digite o salario: " );
 	scanf("%f", &salario);
-	printf("Digite a comissao:");
+	printf("Digite a comissao: ");
     scanf("%f", &comissao);
-	printf("Digite o valor das vendas:");
+	printf("Digite o valor das vendas: ");
 	scanf("%f", &vendas);
     vendas*=comissao/100;
     salarioFinal=salario+(1+comissao/100);
